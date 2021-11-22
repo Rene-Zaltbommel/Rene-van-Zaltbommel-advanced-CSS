@@ -1,0 +1,19 @@
+.social-media.blog{
+    @include makeup(#e17b77, 2);  
+}
+
+.social-media.twitter{
+   @include makeup(#00aced, 3);  
+}
+        
+.social-media.linkedin {
+   @include makeup(#007bb6, 4);  
+}
+
+.social-media.facebook {
+  @include makeup(#3b5998, 5);  
+}
+
+.social-media.github {
+   @include makeup(#333, 6);   
+}

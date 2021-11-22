@@ -1,0 +1,9 @@
+aside{
+    width: 240px;
+    height: 40px;
+    transition: ease-in-out;
+    transition-duration: 350ms;
+    &:hover{
+        transform: translateX(-200px)
+    }
+}

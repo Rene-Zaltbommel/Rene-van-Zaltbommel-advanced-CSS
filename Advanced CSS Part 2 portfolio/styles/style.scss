@@ -1,0 +1,20 @@
+$borderRadius: 3%;
+$center:center;
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #c3cfe2;
+}
+
+main{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    justify-items:$center;
+    align-items: $center;
+    margin: 0%;
+}
+
+@import"./container";
+@import"./text";

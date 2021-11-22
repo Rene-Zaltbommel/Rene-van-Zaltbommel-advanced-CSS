@@ -1,0 +1,79 @@
+aside {
+  width: 240px;
+  height: 40px;
+  transition: ease-in-out;
+  transition-duration: 350ms;
+}
+aside:hover {
+  transform: translateX(-200px);
+}
+
+.social-media.blog {
+  grid-column: 2/3;
+  font-size: 20px;
+  color: white;
+  background-color: #e17b77;
+  grid-row: 2;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.social-media.twitter {
+  grid-column: 2/3;
+  font-size: 20px;
+  color: white;
+  background-color: #00aced;
+  grid-row: 3;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.social-media.linkedin {
+  grid-column: 2/3;
+  font-size: 20px;
+  color: white;
+  background-color: #007bb6;
+  grid-row: 4;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.social-media.facebook {
+  grid-column: 2/3;
+  font-size: 20px;
+  color: white;
+  background-color: #3b5998;
+  grid-row: 5;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.social-media.github {
+  grid-column: 2/3;
+  font-size: 20px;
+  color: white;
+  background-color: #333;
+  grid-row: 6;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+body {
+  background-color: #c3cfe2;
+  display: grid;
+  grid-template-columns: auto 40px;
+  grid-template-rows: 400px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+p {
+  display: inline;
+  margin-left: 15px;
+  text-decoration: underline;
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */

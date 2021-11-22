@@ -1,0 +1,22 @@
+footer{
+    padding-top: -80px;
+    grid-column: 2/3;
+    grid-row: 4/6;
+    background-color: #686de0;
+    text-align: $center;
+    border-bottom-left-radius: $borderRadius;
+    border-bottom-right-radius: $borderRadius;
+    img{
+        margin-top: -70px;
+        border-radius:100px;
+        border:8px solid white;
+    }
+    h1{
+        color: white;
+    }
+    h2{
+         color:lightgrey;
+    }
+            
+}
+

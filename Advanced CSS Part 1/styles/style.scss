@@ -1,0 +1,31 @@
+@import './footer';
+@import './variables';
+
+body{
+    background-color:#c3cfe2;
+    display: grid;
+    grid-template-columns: auto 500px auto;
+    grid-template-rows: 40px 350px 1px 175px auto;   
+}
+
+main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:#fff;
+    text-align:$center;
+    border-top-left-radius: $borderRadius;
+    border-top-right-radius: $borderRadius;
+    padding:40px;
+    font-size: 25px;
+    color: gray;
+    section{
+        line-height: 45px;
+    } 
+}
+
+
+        
+               
+
+                        
+  
